@@ -1,8 +1,6 @@
 # Trading_Algo_AI
 # Navi Trade: AI-Powered Autonomous Trading
 
-![Status](https://img.shields.io/badge/Status-Development-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 **Navi Trade** is an experimental AI trading platform that uses **Reinforcement Learning (RL)** to learn profitable trading strategies. It features a real-time paper trading simulation where you can watch the AI agent analyze market data and execute trades.
 
@@ -10,14 +8,14 @@
 
 ##  Features
 
--   **🧠 AI Trader**: Uses a **PPO (Proximal Policy Optimization)** agent trained via `stable-baselines3`. The AI is rewarded for profit ("Points System") and penalized for losses.
--   **📈 Interactive Dashboard**: A premium dark-mode UI built with **Next.js** and **Recharts**, visualizing live market data with gradient-filled area charts.
--   **🎮 Paper Trading Simulation**: Watch the AI play out historical data candle-by-candle. Tracks:
+-   ** AI Trader**: Uses a **PPO (Proximal Policy Optimization)** agent trained via `stable-baselines3`. The AI is rewarded for profit ("Points System") and penalized for losses.
+-   ** Interactive Dashboard**: A premium dark-mode UI built with **Next.js** and **Recharts**, visualizing live market data with gradient-filled area charts.
+-   ** Paper Trading Simulation**: Watch the AI play out historical data candle-by-candle. Tracks:
     -   Cash Balance
     -   Holdings
     -   Net Worth
     -   P/L (Profit/Loss)
--   **🔄 Mock Data Fallback**: Automatically generates realistic stock data (Random Walk + Volatility) if the live API limit is reached.
+-   ** Mock Data Fallback**: Automatically generates realistic stock data (Random Walk + Volatility) if the live API limit is reached.
 
 ---
 
@@ -85,7 +83,7 @@ npm install
 npm run dev
 ```
 
-Visit **[http://localhost:3000](http://localhost:3000)** to launch the app! 🚀
+Visit **[http://localhost:3000](http://localhost:3000)** to launch the app! 
 
 ---
 
